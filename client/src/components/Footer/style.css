@@ -1,0 +1,23 @@
+.footer {
+  background-color: royalblue;
+  color: white;
+  border-bottom: 3px solid red;
+}
+
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: royalblue;
+  color: white;
+  border-top: 3px solid red;
+}
+
+.navbar-element {
+  display: inline-block;
+  width: 33%;
+  margin: 20px auto;
+  padding: 0;
+  font-size: large;
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.container{
+    padding-top: 99px;
+    color: white;
+    font-size: xx-large;
+    text-shadow: 5px;
+  }
+  
+  .grid{
+    color: black;
+  }
+  .grid-box{
+    display: inline-block;
+    width: 25%;
+  }
+  
+  .row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
