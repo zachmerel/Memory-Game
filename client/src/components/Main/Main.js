@@ -1,73 +1,41 @@
+//dependencies and import files
 import React, { Component } from "react";
 import Card from "../Card/Card";
-import cards from '../../Data/cards.json'
+import cards from "../../Data/cards.json";
 import "./style.css";
 
+//establishes class that gives state to props
 class Main extends Component {
   state = {
-    cards,
+    cards
   };
 
+  handleClick = id => {
+    const newShuffle = this.state.cards.sort(() => { return 0.5 - Math.random() })
+    console.log('clicked', id)
+    this.setState(prevState => {
+      return {
+        cards: newShuffle
+      }
+    })
+  }
+
+  //renders the card components and gets the state of the id and image?
   render() {
     return (
-      <div className='card-grid'>
-      {this.state.cards.map(player => (
-        <Card
-          key={player.id}
-          image={player.image}
-        />
-      ))}
+      <div className="row">
+        {this.state.cards.map(player => (
+          <Card
+            key={player.id}
+            id={player.id}
+            name={player.name}
+            image={player.image}
+            handleClick={this.handleClick}
+          />
+        ))}
       </div>
     );
   }
 }
 
 export default Main;
-
-//not dynamic way of setting up grid
-{/* <div className="grid container ">
-<div className="row">
-  <div className="grid-box col-md-3">
-    <Card image={this.state.image} />
-  </div>
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-</div>
-<div className="row">
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-</div>
-<div className="row">
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-</div>
-<div className="row">
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-</div>
-<div className="row">
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-  <div className="grid-box col-md-3">X</div>
-</div>
-</div> */}
-
-
-  //trying to load a images to put on my card here
-// LoadImg = () => {
-//     Img.getImgFile()
-//       .then(res =>
-//         this.setState({
-//           image: //files[i] from images directory
-//         })
-//       )
-//       .catch(err => console.log(err));
-//   };
