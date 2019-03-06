@@ -3,12 +3,9 @@ import "./style.css";
 
 const Card = props => {
   return (
-    <div
-      className="card"
-      style={{
-        backgroundImage: props.image ? `url(${props.image})` : "none"
-      }}
-    />
+    <div className="card">
+      <img src={props.image} alt={props.name}/>
+    </div>
   );
 };
 

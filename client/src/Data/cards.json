@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "name": "Javier Baez",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/595879@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 2,
+        "name": "David Bote",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/623520@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 3,
+        "name": "Kris Bryant",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/592178@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 4,
+        "name": "Anthony Rizzo",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/519203@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 5,
+        "name": "Ben Zobrist",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/450314@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 6,
+        "name": "Mark Zagunis",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/657145@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 7,
+        "name": "Albert Almora Jr.",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/546991@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 8,
+        "name": "Ian Happ",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/664023@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 9,
+        "name": "Jason Heyward",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/518792@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 10,
+        "name": "Kyle Schwarber",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/656941@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 11,
+        "name": "Wilson Contreras",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/575929@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 12,
+        "name": "Yu Darvish",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/506433@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 13,
+        "name": "Carl Edwards Jr.",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/605218@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 14,
+        "name": "Cole Hamels",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/430935@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 1,
+        "name": "Kyle Hendricks",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/543294@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 15,
+        "name": "Jon Lester",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/452657@3x.jpg",
+        "clicked": 0
+    },
+    {
+        "id": 16,
+        "name": "Jose Quintana",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/500779@3x.jpg",
+        "clicked": 0
+    }
+]
