@@ -1,8 +1,16 @@
-import React from "react";
-import "./style.css";
+// import React, { Component } from "react";
+// import cards from "../../Data/cards.json";
+// import "./style.css";
 
-const Score = () => {
-  return <div>Score Place Holder</div>;
-};
+// //class declared that gives state to score
+// const Score = props => {
+//   return (
+//     <div className="score">
+//       <p>
+//         Score: {props.score} | Top Score: {props.topScore}
+//       </p>
+//     </div>
+//   );
+// };
 
-export default Score;
+// export default Score;

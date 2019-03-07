@@ -7,8 +7,9 @@ const Card = props => {
   return (
     <div
       key={props.id}
+      //onclick handleClick prop gets passed in
       onClick={() => {
-        (props.handleClick(props.id));
+        props.handleClick(props.id);
       }}
       className="cardStyle"
     >
