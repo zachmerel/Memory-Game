@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <nav className="navbar fixed-bottom navbar-light bg-light">
       <div className="navbar-text navbar-element">
-       Memory Game <img src={'../images/small-logo.png'} alt='cubs logo'></img>
+       Memory Game <span><img src={'../../../images/small-logo.png'} alt='cubs logo'></img></span>
       </div>
       
     </nav>
