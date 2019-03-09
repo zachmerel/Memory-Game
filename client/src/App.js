@@ -50,9 +50,6 @@ class App extends Component {
         cards: newShuffle
       };
     });
-    // if (this.state.score === 2) {
-    //   console.log("hits the if statment for score");
-    // }
 
   };
 
