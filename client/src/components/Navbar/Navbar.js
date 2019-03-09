@@ -2,11 +2,11 @@
 import React from "react";
 import "./style.css";
 
-//renders the navbar with 3 elements navbar-text and score components still incomplete
+//renders the navbar with 3 elements
 const Navbar = props => {
   return (
-    <div className='navbar-fixed-top'>
-      <nav className="navbar ">
+    // <div className="navbar">
+      <nav className='navbar sticky-top'>
         <span className="navbar-element">
           <a className="title-element navbar-brand ">Cubs Click Game</a>
         </span>
@@ -16,7 +16,7 @@ const Navbar = props => {
           Score: {props.score} | Top Score: {props.topScore}
         </span>
       </nav>
-    </div>
+    // </div>
   );
 };
 

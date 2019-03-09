@@ -19,12 +19,11 @@
 .navbar-text{
   margin-left: 40px;
 }
-
 a{
   font-size: xx-large;
   font-weight: bolder;
   text-align: center;
-}
+} 
 
 /* message color animation and setting   */
 .correct {
@@ -76,4 +75,10 @@ a{
   100% {
     color: white;
   }
+}
+
+.sticky-top{
+  position: fixed;
+  top: 0;
+
 }
