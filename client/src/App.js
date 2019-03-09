@@ -12,7 +12,7 @@ class App extends Component {
     message: "Click one of the players to begin!",
     score: 0,
     topScore: 0,
-    navMsgColor: "",
+    navMsgColor: "navbar-text navbar-element",
     // the clicked property is a set which will only take unquie values in this case only ids that have been clicked
     clicked: new Set()
   };
